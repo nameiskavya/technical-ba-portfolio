@@ -1,43 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
     <header>
-        <h1>Kavya Udalagama</h1>
-        <p>Technical Business Analyst Portfolio</p>
+        <div class="container">
+            <h1>Welcome to BA Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hi there! I’m a Technical Business Analyst with expertise in connecting technology and business goals.
-            My focus is on delivering solutions that align with stakeholder needs while achieving measurable objectives.
-        </p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm a Business Analyst passionate about leveraging data and processes to create impactful solutions. I enjoy solving problems, streamlining operations, and delivering value to stakeholders.</p>
+        </div>
     </section>
+
     <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <strong>Case Study 1:</strong> Improving the Arts Ecosystem in Edmonton
-                <br>
-                <a href="https://your-case-study-link.com" target="_blank">View Case Study</a>
-            </li>
-            <li>
-                <strong>Case Study 2:</strong> Stakeholder Analysis Matrix
-                <br>
-                <a href="https://your-case-study-link.com" target="_blank">View Case Study</a>
-            </li>
-        </ul>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Process Improvement</h3>
+                <p>Description of the project, goals achieved, and tools used.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Data Analysis</h3>
+                <p>Details about the project, methodologies applied, and outcomes.</p>
+            </div>
+        </div>
     </section>
+
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me!</p>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/yourformid" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
+
     <footer>
-        <p>&copy; 2025 Kavya Udalagama</p>
+        <div class="container">
+            <p>&copy; 2025 Kavya Udalagama. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
