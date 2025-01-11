@@ -3,90 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Kavya Udalagama - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Business Analysis Portfolio</h1>
+            <h1>Kavya Udalagama</h1>
             <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
 
-    <section id="about" class="hero">
-        <div class="container">
-            <h2>Hello, I'm Kavya Udalagama</h2>
-            <p>A passionate Business Analyst and Data Enthusiast with a knack for turning insights into action. Let's build something amazing together!</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">Data Analysis</div>
-                <div class="skill">Web Development</div>
-                <div class="skill">Business Process Improvement</div>
-                <div class="skill">SQL & Python</div>
-                <div class="skill">Tableau & Power BI</div>
-                <div class="skill">Stakeholder Management</div>
-                <div class="skill">Agile Methodologies</div>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>
+                    I am a software engineer passionate about building efficient, user-friendly applications. 
+                    Explore my journey, projects, and how I can help create impactful solutions.
+                </p>
             </div>
-        </div>
-    </section>
+        </section>
 
-     <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <a href="https://example.com/project1" target="_blank">
-                        <img src="project1-thumbnail.png" alt="Project 1 Thumbnail">
-                        <div class="project-info">
-                            <h3>Case Study: Improving the Arts Ecosystem in Edmonton</h3>
-                            <p>Process optimization project achieving 30% efficiency improvement.</p>
-                        </div>
-                    </a>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m Kavya Udalagama, a software engineering master's student with a passion for full-stack development 
+                    and innovative solutions. My journey in technology began with a love for solving real-world problems through 
+                    coding. Over the years, I’ve honed my skills in modern web technologies, project management, and geospatial analysis.
+                </p>
+                <p>
+                    I specialize in creating scalable web applications, dashboards, and tools that cater to specific user needs. 
+                    My experience includes working on diverse projects ranging from urban expansion studies to business ecosystems for 
+                    creative industries. With a blend of technical and analytical skills, I strive to deliver high-quality solutions 
+                    that make a difference.
+                </p>
+                <p>
+                    When I’m not coding, I enjoy exploring art and culture, contributing to community projects, and learning 
+                    about new technologies.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <h3><a href="https://github.com/username/project1" target="_blank">Task Manager Pro</a></h3>
+                        <p>
+                            A full-stack web application for organizing tasks and managing team workflows. Features include task assignments, 
+                            progress tracking, and real-time notifications. Built using React, Node.js, and MongoDB.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <h3><a href="https://github.com/username/project2" target="_blank">Job Dashboard</a></h3>
+                        <p>
+                            A responsive dashboard for tracking job applications, featuring data visualization with charts and tables. 
+                            Developed using Material-UI and integrated with a RESTful API for dynamic data updates.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <h3><a href="https://github.com/username/project3" target="_blank">Urban Growth Analyzer</a></h3>
+                        <p>
+                            A geospatial analysis tool for studying urban expansion and its impact on green spaces. Utilized Python 
+                            (Pandas, Geopandas) and Leaflet.js to visualize changes over time with interactive maps.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <h3><a href="https://github.com/username/project4" target="_blank">Art Ecosystem Business Plan</a></h3>
+                        <p>
+                            A comprehensive web-based business planning tool designed to support local art businesses in Edmonton. 
+                            Includes templates, step-by-step guidance, and analytics to help improve the arts ecosystem.
+                        </p>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <a href="https://example.com/project2" target="_blank">
-                        <img src="project1-thumbnail.png" alt="Project 2 Thumbnail">
-                        <div class="project-info">
-                            <h3>Sase Study: Stakeholder Analysis Matrix</h3>
-                            <p>Data visualization dashboard for real-time insights.</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Add more project cards as needed -->
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>I'm always open to opportunities and collaborations. Let's connect!</p>
-            <address>
-                45 Silverstone Dr, Etobicoke, Toronto, M9V 4B1, ON, Canada<br>
-                <a href="mailto:prayagpurohit1@gmail.com">prayagpurohit1@gmail.com</a><br>
-                <a href="tel:+16476142425">+1 (647)-614-2425</a>
-            </address>
-            <div class="social-links">
-                <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
-                <a href="https://github.com" target="_blank">GitHub</a> |
-                <a href="https://twitter.com" target="_blank">Twitter</a>
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>
+                    I’d love to hear from you! Whether you’re interested in collaborating on a project, have a question, or just 
+                    want to say hi, feel free to reach out.
+                </p>
+                <p>
+                    Email: <a href="mailto:kavya@example.com">kavya@example.com</a>
+                </p>
+                <p>
+                    GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a>
+                </p>
+                <p>
+                    LinkedIn: <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a>
+                </p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
