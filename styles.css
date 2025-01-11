@@ -21,6 +21,9 @@ h1, h3 {
     margin-bottom: 10px;
 }
 
+.title {
+    color: #ffffff;
+
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
